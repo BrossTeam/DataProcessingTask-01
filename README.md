@@ -10,7 +10,9 @@ Are you up for the challenge
 - Explore: 20min
 - Solution: <30min
 
-Templates not allowed!!!
+Templates not allowed!!! And keep in mind the outcome of the cpp code must be the same
+as in python that means the whisper inference section should return the same result.
+Only then will it be considered completed.
 
 ## What to do?
 
