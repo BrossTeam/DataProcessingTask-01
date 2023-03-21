@@ -12,7 +12,7 @@ Are you up for the challenge
 
 ## What to do?
 
-In this simple task you will need to convert a metrix from
+In this simple task you will need to convert a matrix from
 `std::vector<std::vector<float>>` into our custom type of
 `ctranslate2::StorageView` you can find its definition
 [here](https://github.com/OpenNMT/CTranslate2/blob/5f9aac6d3cf240a2f47dcc663f608bb445d41218/src/storage_view.cc)
