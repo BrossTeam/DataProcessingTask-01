@@ -2,7 +2,7 @@
 
 Hi, welcome to this quick one hour task, this is the
 first step in our collaboration and fun. If you complete this
-you will unlock further tasks with a much higher prise. This
+you will unlock further tasks with a much higher prize. This
 is also the first step to getting familiar with our new code base.
 Are you up for the challenge
 
