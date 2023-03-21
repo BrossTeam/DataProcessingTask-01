@@ -41,9 +41,9 @@ std::vector<std::vector<float>> read_csv_matrix(const char* file_name)
 /*
  * TODO: the task for you is to complete the following function
  *
- * input:
+ * input: a (80, 3000) metrix
  *
- * output:
+ * output: StorageView type
  *
  * hint: go to definition of StorageView
  */
@@ -52,22 +52,12 @@ ctranslate2::StorageView get_ctranslate2_storage(std::vector<std::vector<float>>
     auto device = ctranslate2::Device::CPU;
     auto dtype = ctranslate2::DataType::FLOAT32;
 
-    size_t num_rows = segment.size();
-    size_t num_cols = segment[0].size();
-    ctranslate2::Shape shape({ 1, (long long)num_rows, (long long)num_cols });
-    std::vector<float> cont_segment(num_rows * num_cols);
-
-    size_t idx = 0;
-    for (size_t i = 0; i < num_rows; i++)
-    {
-        for (size_t j = 0; j < num_cols; j++)
-        {
-            cont_segment[idx++] = segment[i][j];
-        }
-    }
+    // put your code here
 
     ctranslate2::StorageView view(dtype, device);
-    view.view((void*)cont_segment.data(), std::move(shape));
+
+    // put your code here
+
     return view;
 }
 
@@ -104,7 +94,7 @@ int main()
     // print the result of the test
 	std::cout << res.sequences[0][1] << std::endl;
     
-    if (res.sequences[0][1] == ",") std::cout << "Good job, go collect your prize!";
+    if (res.sequences[0][1] == "ĠHello") std::cout << "Good job, go collect your prize!";
     else std::cout << "Failed, sheesh gotta try again!";
 
 	return 0;
