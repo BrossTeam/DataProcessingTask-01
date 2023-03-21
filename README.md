@@ -1,10 +1,14 @@
 # Data Processing Task - 01
 
-Hi, welcome to this quick one hour task for 100usd, this is the
+Hi, welcome to this quick one hour task, this is the
 first step in our collaboration and fun. If you complete this
 you will unlock further tasks with a much higher prise. This
 is also the first step to getting familiar with our new code base.
 Are you up for the challenge
+
+Read: 10min
+Explore: 20min
+Solution: <30min
 
 ## What to do?
 
