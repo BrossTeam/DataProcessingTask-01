@@ -66,5 +66,7 @@ then just go into `out\build\x64-debug\CTranslate2`
 and coppy over `ctranslate2.dll` into `out\build\x64-debug`
 same for release.
 
+Also Replace the paths through out the project with your own!
+
 ---
 Good luck:)
