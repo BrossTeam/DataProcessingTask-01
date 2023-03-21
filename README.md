@@ -10,6 +10,8 @@ Are you up for the challenge
 - Explore: 20min
 - Solution: <30min
 
+Templates not allowed!!!
+
 ## What to do?
 
 In this simple task you will need to convert a matrix from
