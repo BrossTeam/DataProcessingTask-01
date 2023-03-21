@@ -12,8 +12,7 @@ Are you up for the challenge
 
 Templates not allowed!!! And keep in mind the outcome of the cpp code must be the same
 as in python that means the whisper inference section should return the same result.
-Only then will it be considered completed. You can get the model [here]
-(https://drive.google.com/file/d/1LRuLd0XeNXsz609KP1ZxhqMd5_6dj9KC/view?usp=sharing)
+Only then will it be considered completed. You can get the model [here](https://drive.google.com/file/d/1LRuLd0XeNXsz609KP1ZxhqMd5_6dj9KC/view?usp=sharing)
 
 ## What to do?
 
