@@ -10,9 +10,11 @@ Are you up for the challenge
 - Explore: 20min
 - Solution: <30min
 
-Templates not allowed!!! And keep in mind the outcome of the cpp code must be the same
-as in python that means the whisper inference section should return the same result.
+Here are a few rules:
+- Templates not allowed!!!
+- the outcome of the cpp code must be the same as in python that means the whisper inference section should return the same result.
 Only then will it be considered completed. You can get the model [here](https://drive.google.com/file/d/1LRuLd0XeNXsz609KP1ZxhqMd5_6dj9KC/view?usp=sharing)
+- It must be compilable by clang or similar compilers (you cannot use an interpreter)
 
 ## What to do?
 
