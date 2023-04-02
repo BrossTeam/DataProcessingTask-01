@@ -61,7 +61,11 @@ to go any other route, we don't have any external deps,
 everything is included. Just run the setup.bat script and
 everything will be setup for you. Then open it in 
 as a folder in Visual Studio, and it should be good to go.
-
+Also make sure to install the [MKL-intel lib](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl-download.html)
+if you don't have it already. If you get any MKL related
+issues then feel free to manually replace the path wherever
+it's needed.
+___
 For python just pip install ctranslate2 and numpy.
 
 If you get the following error: ![img.png](img.png)
